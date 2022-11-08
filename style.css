@@ -1,0 +1,23 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+
+button{
+    background-color: red;
+    border: none;
+    font-size: 1rem;
+    font-family: inherit; /* Gets font from body */
+}
+
+div{
+    font-size: 2rem;
+    border: 1px solid black;
+    /*display: initial; For CSS (Default: inline) */
+}
+
+p{
+    border: inherit; /* Gets border details from parent div */
+    font-family: revert; /* Reverts to default style of browser */
+}
+
+/* Unset - sets to initial/inherit. Depends on the property default */
